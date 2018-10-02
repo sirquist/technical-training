@@ -14,7 +14,7 @@ HomeMenu.include({
         var self = this;
         var superDef = this._super.apply(this, arguments);
         var messageDef = this._rpc({
-            route: '/awesome_tshirt/bafienistalkingtoyou',
+            route: '/awesome_tshirt/sylvesteristalkingtoyou',
         }).then(function (message) {
             self.message = message;
         });
